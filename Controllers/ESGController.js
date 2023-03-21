@@ -121,7 +121,7 @@ class ESGController {
 
       await Response.updateOne({questionId,userId},{$set:{attachment:filePath}})
 
-      return res.status(200).json({success:true})
+      return res.status(200).json({success:true,file:filePath})
 
     } catch (error) {
       console.log(error);
