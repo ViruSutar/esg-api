@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@aws-sdk/abort-controller": "^3.295.0",
+    "@aws-sdk/client-s3": "^3.295.0",
     "aws-sdk": "^2.1339.0",
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.2",
