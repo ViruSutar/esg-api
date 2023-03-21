@@ -117,7 +117,7 @@ class ESGController {
         return res.status(400).json({ message: "File not found" });
       }
 
-      const filePath = req.file.path;
+      const filePath = req.file.location;
 
       await Response.updateOne({questionId,userId},{$set:{attachment:filePath}})
 
